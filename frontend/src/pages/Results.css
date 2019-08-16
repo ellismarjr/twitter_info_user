@@ -1,0 +1,31 @@
+img {
+  width: 100px;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+.user-list {
+  max-width: 700px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+
+.user-list article {
+  background: #00acee;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.user-list article header {
+  color: #fff;
+  font-weight: bold;
+}
+
+.user-list article p {
+  font-size: 16px;
+  color: #0d5975;
+  margin-top: 5px;
+  line-height: 15px;
+}

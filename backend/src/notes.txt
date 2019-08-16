@@ -1,0 +1,18 @@
+// client.get(path, params, callback);
+// client.post(path, params, callback);
+// client.stream(path, params, callback); 
+
+// var params = { screen_name: 'nodejs' }
+// client.get('statuses/user_timeline', params, function(error, tweets, response) {
+//   if (!error) {
+//     console.log(tweets)
+//   }
+// })
+
+// client.post('statuses/update', {status: 'Using nodeJS'})
+//   .then(function (tweet) {
+//     console.log(tweet);
+//   })
+//   .catch(function (error) {
+//     throw error;
+//   })
